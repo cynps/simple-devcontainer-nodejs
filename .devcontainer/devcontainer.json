@@ -1,0 +1,14 @@
+{
+	"name": "Node.js",
+	"image": "node:latest",
+	"forwardPorts": [3000],
+	"postCreateCommand": "yarn install",
+	"customizations": {
+		"vscode": { 
+			"extensions": ["esbenp.prettier-vscode"],
+			"settings": {
+				"terminal.integrated.shell.linux": "/bin/bash"	
+			}
+		}
+	}
+}

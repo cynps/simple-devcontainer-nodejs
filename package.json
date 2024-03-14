@@ -1,0 +1,12 @@
+{
+    "name": "vanilla_js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "",
+    "license": "MIT"
+}
